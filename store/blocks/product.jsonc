@@ -19,6 +19,12 @@
 
   "flex-layout.col#left": {
     "children": [
+      "stack-layout#brand"
+    ]
+  },
+
+  "stack-layout#brand": {
+    "children": [
       "product-images",
       "product-brand"
     ]
