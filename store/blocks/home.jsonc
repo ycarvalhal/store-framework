@@ -4,15 +4,18 @@
       "rich-text",
       "info-card#button-right",
       "info-card#button-left",
-      "flex-layout.row"
+      "flex-layout.row",
+      "shelf"
     ]
   },
+
   "rich-text": {
     "props": {
       "text": "**Hello, World!**",
       "textPosition": "RIGHT"
     }
   },
+
   "info-card#button-right": {
     "props": {
       "isFullModeStyle": false,
@@ -27,6 +30,7 @@
       "blockClass": "vintage"
     }
   },
+
   "info-card#button-left": {
     "props": {
       "isFullModeStyle": false,
@@ -69,6 +73,7 @@
       "maxWidth": "100%"
     }
   },
+
   "image#major-appliance": {
     "props": {
       "src": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/major_appliance_banner___bb10093866a127345ddfbcca3efa5022.png",
