@@ -15,8 +15,10 @@
     
     "header-layout.desktop": {
         "children": [
+          "drawer",
           "header-row#notification",
-          "header-row#main"
+          "header-row#main",
+          "header-row#menu"
         ]
     },
     
@@ -92,5 +94,13 @@
           "text": "**Free Shipping on orders over $50**",
           "textPosition": "CENTER"
         }
-      }
+    },
+
+    "header-row#menu": {
+        "children": [
+          "header-spacer",
+          "vtex.menu@2.x:menu#categories",
+          "header-spacer"
+        ]
+    }
 }
